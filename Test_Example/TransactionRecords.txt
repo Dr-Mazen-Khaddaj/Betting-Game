@@ -1,0 +1,25 @@
+./initializeBettingGame.sh
+https://preview.cardanoscan.io/transaction/6a972dfab0a71b9ca9e7a5f457dd4c705d913ba049f6c28b40755c210e79951a S0
+https://preview.cardanoscan.io/transaction/0f7ce5a01bfcda80ecb9d6120b81c9581e75a647969795933fc6bf387610ed86 S1
+
+./makeABet.sh
+https://preview.cardanoscan.io/transaction/6589bbc73aa053ee0bb08c0fa9b306514bea791cca2a849897f2b35228218369 7 S0
+https://preview.cardanoscan.io/transaction/b8dc277355d08080e6d9b089c8abd9163eff09c16fa85d636dadb19d67898265 5 S0
+
+https://preview.cardanoscan.io/transaction/1feed80e9a65f2907c100a0acf1074362764a0339191d8c7cdec684c9311cbcd 0 S1
+https://preview.cardanoscan.io/transaction/b5a4125ea7d1825c65441906028aeb9f37ff944553b81c111b4ad32eb38ba407 1 S1
+https://preview.cardanoscan.io/transaction/ea8376efb4d5fb5b07c445be7612a59b2f41bcf51854be75876b34578d7e4e11 2 S1
+https://preview.cardanoscan.io/transaction/efaf978af62d03b111549add5df2c5d56ea1a29be8aa95a91225345ebf5d3e92 3 S1
+https://preview.cardanoscan.io/transaction/f715e25f6ddd3703c8fa3e21581fa863c2c6ddb3a8a83485edec40b31f7cf0c1 4 S1
+https://preview.cardanoscan.io/transaction/e8949ed59c96ae9ef8328c39394bf547ba5bf395b9a8845ac89f8680dc3d2b7d 5 S1
+https://preview.cardanoscan.io/transaction/a89b7e407dd2f4d8abe0daa9abf0b706c536ca5109ded3801b125374fbd9ba8f 6 S1
+https://preview.cardanoscan.io/transaction/d1728c683a2b6159d63505679ab64c0d60a669ecc943bb22eca13122655f1384 7 S1
+https://preview.cardanoscan.io/transaction/702155e6082354c972cad6bef4c6b03bad45064ad742de0dabe35b6a08e6f360 8 S1
+https://preview.cardanoscan.io/transaction/291c85c06fb30e5c329201cdbdfedd2f8ba138eac75de3ca935ea5a31bb00627 9 S1
+
+./makeFirstBet.sh
+https://preview.cardanoscan.io/transaction/a31342dec428a0efeb50a373ec7209c9406e5c6abdf0676360b80ca621971059 3 S2 | S0:W9
+https://preview.cardanoscan.io/transaction/1b8a34a891cd68057720d95311c4d434a4fdde22eacf6fa15ce5de0cb76061b3 8 S3 | S1:W5
+
+./redeemJackpot.sh
+https://preview.cardanoscan.io/transaction/a3ffb4fbab0e6669b8f646df9371908f17e058039377b1d6231eff878045ebc8 S0+S1
