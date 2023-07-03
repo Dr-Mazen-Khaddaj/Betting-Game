@@ -30,7 +30,8 @@ To get started with the lottery game project, please follow the steps outlined b
 8. Navigate to repository folder: cd $BETTING_GAME
 9. Navigate to CLI where you can run bash scripts to interact with the game.
 10. Open the current directory using an editor: code .
-11. Check Test_Example/Walkthrough.txt for more details.
+11. Run Cardano Node (preview)
+12. Check Test_Example/Walkthrough.md for more details.
 
 ## Folder Structure
 
